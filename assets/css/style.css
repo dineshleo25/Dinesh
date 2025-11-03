@@ -1223,7 +1223,7 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 #skillsContainer .bar .info img {
-  width: 100px;
+  width: 60px;
   aspect-ratio: 1/1;
 }
 /* scroll top ends */
