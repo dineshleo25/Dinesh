@@ -1222,4 +1222,8 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
+#skillsContainer .bar .info img {
+  width: 100px;
+  aspect-ratio: 1/1;
+}
 /* scroll top ends */
