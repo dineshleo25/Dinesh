@@ -1,46 +1,46 @@
 [
     {
-        "name": "Adobe_After Effects",
+        "name": "After Effects",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/2101px-Adobe_After_Effects_CC_icon.svg.png"
     },
     {
-        "name": "Adobe_Premiere_Pro",
+        "name": "Premiere Pro",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png"
     },
     {
-        "name": "Adobe_Photoshop",
+        "name": "Photoshop",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png"
     },
     {
-        "name": "Adobe_illustrator",
+        "name": "Illustrator",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2048px-Adobe_Illustrator_CC_icon.svg.png"
     },
     {
-        "name": "Adobe_InDesign",
+        "name": "InDesign",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/2101px-Adobe_InDesign_CC_icon.svg.png"
     },
     {
-        "name": "Adobe_Lightroom",
+        "name": "Lightroom",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/1200px-Adobe_Photoshop_Lightroom_CC_logo.svg.png"
     },
     {
-        "name": "DaVinci_Resolve",
+        "name": "DaVinci Resolve",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png"
     },
     {
-        "name": "Adobe_XD",
+        "name": "Adobe XD",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/2101px-Adobe_XD_CC_icon.svg.png"
     },
     {
-        "name": "Adobe_Animate",
+        "name": "Adobe Animate",
         "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-animate-icon.png"
     },
     {
-        "name": "Media_Encoder",
+        "name": "Media Encoder",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Adobe_Media_Encoder_Icon.svg/1051px-Adobe_Media_Encoder_Icon.svg.png"
     },
     {
-        "name": "Adobe_Flash",
+        "name": "Adobe Flash",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Adobe_Flash_Professional_Icon.svg/1200px-Adobe_Flash_Professional_Icon.svg.png"
     },
     {
