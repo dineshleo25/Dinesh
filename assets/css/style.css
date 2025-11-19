@@ -598,6 +598,25 @@ header .navbar ul li a:hover {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
 }
+.work-banner {
+  background-image: url(../images/Poster-01-webp.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.box-container .box.tilt:nth-child(1) .work-banner {
+  background-size: 1220%;
+  background-position: 4.3% 4.5%;
+}
+.box-container .box.tilt:nth-child(2) .work-banner {
+  background-size: 1220%;
+  background-position: 16% 4.5%;
+}
+.box-container .box.tilt:nth-child(3) .work-banner {
+  background-size: 1220%;
+  background-position: 27% 4.5%;
+}
 /* education media queries starts*/
 @media screen and (max-width: 600px) {
   .education .box-container .box {
@@ -652,7 +671,8 @@ header .navbar ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 30rem;
+  /* height: 30rem; */
+  height: 347px;
 }
 .work .box-container .box img {
   height: 100%;
