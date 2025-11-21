@@ -25,6 +25,7 @@
   <meta name="twitter:description"
     content="Explore the creative works of Dinesh G — a passionate graphic designer and editor." />
   <meta name="twitter:image" content="https://dineshleo25.github.io/Dinesh/assets/images/og-image.jpg" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css" />
   <!-- Font Awesome -->
@@ -187,7 +188,7 @@
           <div class="desc">
             <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
             <div class="btns">
-              <a href="#" class="btn" target="_blank" onclick="return false"><i class="fas fa-eye"></i> View</a>
+              <a href="#" class="btn" target="_blank" onclick="return false" type="button"data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-eye"></i> View</a>
               <a href="#" class="btn" target="_blank" onclick="return false">Code <i class="fas fa-code"></i></a>
             </div>
           </div>
@@ -486,9 +487,29 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- scroll reveal anim -->
   <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- bootstrap -->   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
   <script src="./assets/js/script.js"></script>
+  <!-- modal work -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
