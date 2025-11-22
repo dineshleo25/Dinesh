@@ -800,14 +800,14 @@ header .navbar ul li a:hover {
   margin-left: -3px;
   z-index: -2;
 }
-.experience .container {
+.experience .Expcontainer {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {
+.experience .Expcontainer::after {
   content: '\f0b1';
   position: absolute;
   width: 25px;
@@ -912,6 +912,30 @@ header .navbar ul li a:hover {
 .morebtn .btn:hover i {
   transform: translateX(5px);
 }
+#galleryCarousel {
+  min-height: 510px;
+}
+#galleryCarousel .carousel-item img {
+  max-width: 500px;
+}
+#galleryCarousel .carousel-control-prev,
+#galleryCarousel .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  bottom: 0%;
+  top: auto;
+  background-color: #00002c;
+  opacity: 1;
+  border-radius: 50%;
+}
+#galleryCarousel .carousel-control-prev {
+  left: 45%;
+  transform: translate(-50%, 10px);
+}
+#galleryCarousel .carousel-control-next {
+  left: 55%;
+  transform: translate(-50%, 10px);
+}
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .experience {
@@ -923,15 +947,15 @@ header .navbar ul li a:hover {
   .experience .timeline::after {
     left: 31px;
   }
-  .experience .container {
+  .experience .Expcontainer {
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;
   }
-  .experience .container::after {
+  .experience .Expcontainer::after {
     font-size: 2.2rem;
   }
-  .experience .container::before {
+  .experience .Expcontainer::before {
     left: 61px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
