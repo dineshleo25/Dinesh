@@ -936,6 +936,9 @@ header .navbar ul li a:hover {
   left: 55%;
   transform: translate(-50%, 10px);
 }
+#galleryCarouselVector .carousel-inner .carousel-item img {
+  width: 500px;
+}
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .experience {
@@ -972,6 +975,9 @@ header .navbar ul li a:hover {
   }
   .morebtn {
     margin-top: 3rem;
+  }
+  #galleryCarouselVector .carousel-inner .carousel-item img {
+    width: 300px;
   }
 }
 /* experience media queries ends */
@@ -1050,8 +1056,8 @@ form .message textarea {
   padding-left: 47px;
   border: 2px solid rgb(115, 3, 167);
 }
-.field input:focus ~ i,
-.message textarea:focus ~ i {
+.field input:focus~i,
+.message textarea:focus~i {
   color: rgb(115, 3, 167);
 }
 form .message {
