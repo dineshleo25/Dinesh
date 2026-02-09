@@ -916,9 +916,9 @@ header .navbar ul li a:hover {
 .morebtn .btn:hover i {
   transform: translateX(5px);
 }
-#galleryCarousel {
+/* #galleryCarousel {
   min-height: 510px;
-}
+} */
 #galleryCarousel .carousel-item img {
   max-width: 500px;
 }
