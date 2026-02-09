@@ -983,6 +983,9 @@ header .navbar ul li a:hover {
   #galleryCarouselVector .carousel-inner .carousel-item img {
     width: 300px;
   }
+  #galleryCarousel .carousel-item img {
+    max-width: 100%;
+  }
 }
 /* experience media queries ends */
 /* experience section ends */

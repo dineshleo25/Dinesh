@@ -27,6 +27,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
     <link rel="icon" href="https://dineshleo25.github.io/Dinesh/assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
+    <style>
+      /* Advanced Modal Design */
+      .modal-content {
+        background: rgba(25, 25, 25, 0.95);
+        backdrop-filter: blur(15px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        color: #e0e0e0;
+      }
+      .modal-header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        padding: 1.5rem 2rem;
+      }
+      .modal-title {
+        font-weight: 700;
+        font-size: 1.5rem;
+        background: linear-gradient(45deg, #fff, #a5a5a5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .btn-close {
+        filter: invert(1) grayscale(100%) brightness(200%);
+        opacity: 0.7;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+      .btn-close:hover {
+        opacity: 1;
+        transform: rotate(90deg);
+      }
+      .modal-body {
+        padding: 2rem;
+      }
+      .carousel-item img,
+      .carousel-item iframe {
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      }
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+      }
+    </style>
   </head>
 
   <body>
@@ -492,7 +535,7 @@
     <script src="./assets/js/script.js"></script>
     <!-- modal work -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Poster Gallery</h5>
@@ -518,7 +561,7 @@
     </div>
     <!-- 2D animation work -->
     <div class="modal fade" id="twoDanimateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">2D Animation Gallery</h5>
@@ -564,7 +607,7 @@
     </div>
     <!-- vector work -->
     <div class="modal fade" id="vectorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">2D Animation Gallery</h5>
@@ -622,7 +665,7 @@
     </div>
     <!-- UI/UX Design work -->
     <div class="modal fade" id="uiUxDesign" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">UI/UX Design Gallery</h5>
@@ -677,7 +720,7 @@
     </div>
     <!-- video work -->
     <div class="modal fade" id="videoEditModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Video Edit Gallery</h5>
@@ -714,7 +757,7 @@
     </div>
     <!-- reels work -->
     <div class="modal fade" id="reelsEditModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Reels Edit Gallery</h5>
